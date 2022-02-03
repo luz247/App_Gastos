@@ -55,6 +55,8 @@
     text-decoration: none;
     display: block;
     padding-top: 20px;
+    border-bottom: 1px solid #dddd;
+    color: #273c75;
    
 }
 .change .bar1 {
@@ -95,14 +97,13 @@
    
 }
 .main .main-two{
-    color: #1d1dfc;
+    color: #273c75;
     padding: 15px;
     background: #fff;
 }
 .main-two p,h1{
 margin-top: 50px;
 font-size: 25px;
-text-shadow:1px 1px 1px #9d96dd;
 letter-spacing: 0.1em;
 font-weight: 400;
 }
@@ -175,7 +176,7 @@ footer div{
 }
 footer div .fa{
     display: inline-block;
-   
+    padding:10px 20px;
     font-size: 20px;
     color: rgb(0, 0, 0);
 }
@@ -228,7 +229,9 @@ footer div  p{
    }
    .nav-bar li a{
        padding-top: 0;
+       border-bottom: 0;
    }
+   
    /***nav*****/
 
 }
