@@ -38,12 +38,12 @@
     position: absolute;
     top: 60px;
     right: 0;
-    width: 50%;
+    width: 70%;
     height:calc( 100% - 60px);
     transform: scale(0);
     transform-origin:top right;
     z-index: 1;
-    background: linear-gradient(to bottom,rgba(0, 0, 0, 0.0),rgba(0, 0, 0, 0.3));
+    background: #fff;
 }
 .nav-bar{
     list-style: none;
@@ -54,6 +54,7 @@
 .nav-bar li a{
     text-decoration: none;
     display: block;
+    padding-top: 20px;
    
 }
 .change .bar1 {
@@ -83,17 +84,20 @@
     align-items: center;
     justify-content: center;
     text-align: center; 
+    
 }
 .main-one{
     position: absolute;
     z-index: -1;
     height:inherit;
     width: 100%;
+    
    
 }
 .main .main-two{
     color: #1d1dfc;
     padding: 15px;
+    background: #fff;
 }
 .main-two p,h1{
 margin-top: 50px;
@@ -101,6 +105,11 @@ font-size: 25px;
 text-shadow:1px 1px 1px #9d96dd;
 letter-spacing: 0.1em;
 font-weight: 400;
+}
+.carousel-item .img img{
+    width: 100%;
+    border: 1px solid purple;
+    height: inherit;
 }
 /*main***********/
 
@@ -205,7 +214,7 @@ footer div  p{
        
    }
    .nav-bar .active-one{
-       background: rgb(66, 35, 241);
+       background: #F50057;
        padding: 5px 15px;
        margin-right: 40px;
        border-radius: 10px;
@@ -218,18 +227,6 @@ footer div  p{
        display: none;
    }
    /***nav*****/
-    
-   .main{
-       background: linear-gradient( to bottom,rgba(0,0,0,0.0),rgba(0,0,0,0.3));
-   }
-
-   .main .main-two{
-       color: #fafafd;
-   }
-   .main-two p,h1{
-    text-shadow:1px 1px 3px #2b16e6;
-   }
-
 
 }
 
